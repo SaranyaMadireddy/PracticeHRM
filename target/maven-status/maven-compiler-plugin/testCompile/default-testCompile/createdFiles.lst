@@ -1,0 +1,4 @@
+com\hrmtest\tests\HomePageTest.class
+com\hrmtest\tests\DummyTest.class
+com\hrmtest\tests\LoginPageTest.class
+com\hrmtest\tests\DBTest.class
