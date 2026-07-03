@@ -19,7 +19,7 @@ public class HomePage {
 	private By adminTab=By.xpath("//span[text()='Admin']");
 	private By orangeHRMlogo=By.className("oxd-brand-banner");
 	private By user=By.className("oxd-userdropdown-tab");
-	private By logout=By.xpath("//a[text()='Logout']");
+	private By logout=By.xpath("//a[contains(text(),'Logout')]");
 	private By pimTab=By.xpath("//span[text()='PIM']");
 	private By employeeName=By.xpath("//div[@class='oxd-grid-item oxd-grid-item--gutters'][1]//input");
 	//label[text()='Employee Name']/parent::div/following::div/div/div/input
