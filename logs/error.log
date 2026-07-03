@@ -4457,3 +4457,83 @@ Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Command: [bdfe63fa-f30c-4016-878f-c5ea1dbf920a, findElement {value=Logout, using=link text}]
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 25392, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
 Session ID: bdfe63fa-f30c-4016-878f-c5ea1dbf920a
+2026-07-03 09:18:10 [TestNG-test-Test-3] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //button[text()=' Login ']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [798837db-6bb7-4ac7-b6b7-493db7ba3889, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 22656, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 798837db-6bb7-4ac7-b6b7-493db7ba3889
+2026-07-03 09:18:15 [TestNG-test-Test-3] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //button[text()=' Login ']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [798837db-6bb7-4ac7-b6b7-493db7ba3889, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 22656, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 798837db-6bb7-4ac7-b6b7-493db7ba3889
+2026-07-03 09:18:26 [TestNG-test-Test-3] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //a[text()='Logout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [798837db-6bb7-4ac7-b6b7-493db7ba3889, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 22656, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 798837db-6bb7-4ac7-b6b7-493db7ba3889
+2026-07-03 09:18:32 [TestNG-test-Test-2] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //button[text()=' Login ']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0e53afb5-fe6f-4ed9-b915-2b2a9bed624d, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 24992, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0e53afb5-fe6f-4ed9-b915-2b2a9bed624d
+2026-07-03 09:18:32 [TestNG-test-Test-1] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //button[text()=' Login ']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bb1c4d39-d0c9-4fd0-9d0b-bcf1396bcc27, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18616, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: bb1c4d39-d0c9-4fd0-9d0b-bcf1396bcc27
+2026-07-03 09:18:33 [TestNG-test-Test-3] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //a[text()='Logout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [798837db-6bb7-4ac7-b6b7-493db7ba3889, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 22656, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 798837db-6bb7-4ac7-b6b7-493db7ba3889
+2026-07-03 09:18:37 [TestNG-test-Test-2] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //button[text()=' Login ']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0e53afb5-fe6f-4ed9-b915-2b2a9bed624d, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 24992, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0e53afb5-fe6f-4ed9-b915-2b2a9bed624d
+2026-07-03 09:18:37 [TestNG-test-Test-1] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //button[text()=' Login ']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bb1c4d39-d0c9-4fd0-9d0b-bcf1396bcc27, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 18616, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: bb1c4d39-d0c9-4fd0-9d0b-bcf1396bcc27
+2026-07-03 09:18:44 [TestNG-test-Test-2] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //a[text()='Logout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0e53afb5-fe6f-4ed9-b915-2b2a9bed624d, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 24992, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0e53afb5-fe6f-4ed9-b915-2b2a9bed624d
+2026-07-03 09:18:49 [TestNG-test-Test-2] ERROR ActionDriver - Unable to get Element Description:Unable to locate element: //a[text()='Logout']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0e53afb5-fe6f-4ed9-b915-2b2a9bed624d, findElement {value=//a[text()='Logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.4, moz:accessibilityChecks: false, moz:buildID: 20260629141727, moz:geckodriverVersion: 0.37.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 24992, moz:profile: C:\Users\Sharu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0e53afb5-fe6f-4ed9-b915-2b2a9bed624d

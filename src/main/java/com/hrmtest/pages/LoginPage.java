@@ -18,7 +18,7 @@ public class LoginPage {
 //	locators
 	private By username=By.name("username");
 	private By password=By.name("password");
-	private By loginButton=By.className("orangehrm-login-button");
+	private By loginButton = By.xpath("//button[text()=' Login ']");
 	private By errorMessage=By.xpath("//p[text()='Invalid credentials']");
 	
 	
