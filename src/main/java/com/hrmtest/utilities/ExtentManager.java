@@ -125,31 +125,26 @@ public class ExtentManager {
 			e.printStackTrace();
 		}
 		// Convert screenshot to base64 for embedding in report
-		String base64Format = convertToBase64(src);
+//		String base64Format = convertToBase64(src);
 
 		/*
 		 * Selenium asks the browser driver for a screenshot and immediately returns the
 		 * image data as a base64 string. No file is created or read
 		 */
 //			String base64Format=((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64); 
-		return base64Format;
+		return  ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
 
 	}
 
 	// Convert screenshot to base64 -- You’re taking an already saved .png file
-	public static String convertToBase64(File screenShotFile) {
-		String base64Format = "";
-		// Read the file content into a byte array
-		byte[] fileContent;
-		try {
-			fileContent = FileUtils.readFileToByteArray(screenShotFile);
-			base64Format = Base64.getEncoder().encodeToString(fileContent);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return base64Format;
-	}
+	/*
+	 * public static String convertToBase64(File screenShotFile) { String
+	 * base64Format = ""; // Read the file content into a byte array byte[]
+	 * fileContent; try { fileContent =
+	 * FileUtils.readFileToByteArray(screenShotFile); base64Format =
+	 * Base64.getEncoder().encodeToString(fileContent); } catch (IOException e) { //
+	 * TODO Auto-generated catch block e.printStackTrace(); } return base64Format; }
+	 */
 
 	// Attach screenshot to report using base64
 	public synchronized static void attachScreenshot(WebDriver driver, String message) {

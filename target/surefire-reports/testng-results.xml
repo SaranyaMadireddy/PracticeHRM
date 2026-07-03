@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-03T09:32:32 IST" name="Suite" finished-at="2026-07-03T09:33:57 IST" duration-ms="85312">
+  <suite started-at="2026-07-03T10:18:55 IST" name="Suite" finished-at="2026-07-03T10:20:34 IST" duration-ms="99792">
     <groups>
     </groups>
-    <test started-at="2026-07-03T09:32:32 IST" name="Test" finished-at="2026-07-03T09:33:57 IST" duration-ms="85312">
+    <test started-at="2026-07-03T10:18:55 IST" name="Test" finished-at="2026-07-03T10:20:34 IST" duration-ms="99792">
       <class name="com.hrmtest.tests.DBTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.DBTest@558bdf1f]" started-at="2026-07-03T09:32:58 IST" name="setup" finished-at="2026-07-03T09:33:12 IST" duration-ms="13752" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.DBTest@338c99c8]" started-at="2026-07-03T10:19:27 IST" name="setup" finished-at="2026-07-03T10:19:49 IST" duration-ms="22120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.DBTest@558bdf1f]" started-at="2026-07-03T09:33:12 IST" name="setupPages" finished-at="2026-07-03T09:33:12 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.DBTest@338c99c8]" started-at="2026-07-03T10:19:49 IST" name="setupPages" finished-at="2026-07-03T10:19:49 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyEmployeeDetailsTest(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.DBTest@558bdf1f]" started-at="2026-07-03T09:33:12 IST" name="verifyEmployeeDetailsTest" data-provider="DBTesting" finished-at="2026-07-03T09:33:39 IST" duration-ms="27433" status="PASS">
+        <test-method signature="verifyEmployeeDetailsTest(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.DBTest@338c99c8]" started-at="2026-07-03T10:19:49 IST" name="verifyEmployeeDetailsTest" data-provider="DBTesting" finished-at="2026-07-03T10:20:17 IST" duration-ms="27546" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,21 +31,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmployeeDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.DBTest@558bdf1f]" started-at="2026-07-03T09:33:39 IST" name="tearDown" finished-at="2026-07-03T09:33:40 IST" duration-ms="634" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.DBTest@338c99c8]" started-at="2026-07-03T10:20:17 IST" name="tearDown" finished-at="2026-07-03T10:20:18 IST" duration-ms="1033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hrmtest.tests.DBTest -->
-      <class name="com.hrmtest.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:32:33 IST" name="setup" finished-at="2026-07-03T09:32:48 IST" duration-ms="15150" status="PASS">
+      <class name="com.hrmtest.tests.DummyTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.hrmtest.tests.DummyTest@7d446ed1]" started-at="2026-07-03T10:18:55 IST" name="loadConfig" finished-at="2026-07-03T10:18:55 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.DummyTest@7d446ed1]" started-at="2026-07-03T10:18:55 IST" name="setup" finished-at="2026-07-03T10:19:19 IST" duration-ms="23640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:32:48 IST" name="setupPages" finished-at="2026-07-03T09:32:48 IST" duration-ms="15" status="PASS">
+        <test-method signature="testTitle()[pri:0, instance:com.hrmtest.tests.DummyTest@7d446ed1]" started-at="2026-07-03T10:19:19 IST" name="testTitle" finished-at="2026-07-03T10:19:19 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.DummyTest@7d446ed1]" started-at="2026-07-03T10:19:20 IST" name="tearDown" finished-at="2026-07-03T10:19:27 IST" duration-ms="7211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrmtest.tests.DummyTest -->
+      <class name="com.hrmtest.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:18:56 IST" name="setup" finished-at="2026-07-03T10:19:18 IST" duration-ms="22045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:19:18 IST" name="setupPages" finished-at="2026-07-03T10:19:18 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:32:48 IST" name="invalidLoginTest" data-provider="InvalidLogin" finished-at="2026-07-03T09:33:06 IST" duration-ms="17815" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:19:18 IST" name="invalidLoginTest" data-provider="InvalidLogin" finished-at="2026-07-03T10:19:29 IST" duration-ms="11559" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,19 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:33:06 IST" name="tearDown" finished-at="2026-07-03T09:33:20 IST" duration-ms="13344" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:19:30 IST" name="tearDown" finished-at="2026-07-03T10:19:48 IST" duration-ms="17913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:33:20 IST" name="setup" finished-at="2026-07-03T09:33:31 IST" duration-ms="11048" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:19:48 IST" name="setup" finished-at="2026-07-03T10:20:07 IST" duration-ms="19325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:33:31 IST" name="setupPages" finished-at="2026-07-03T09:33:31 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPages -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:33:31 IST" name="validLoginTest" data-provider="ValidLogin" finished-at="2026-07-03T09:33:57 IST" duration-ms="25620" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:20:07 IST" name="validLoginTest" data-provider="ValidLogin" finished-at="2026-07-03T10:20:33 IST" duration-ms="25382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,39 +103,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.LoginPageTest@56673b2c]" started-at="2026-07-03T09:33:57 IST" name="tearDown" finished-at="2026-07-03T09:33:57 IST" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:20:07 IST" name="setupPages" finished-at="2026-07-03T10:20:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.LoginPageTest@1984b1f]" started-at="2026-07-03T10:20:33 IST" name="tearDown" finished-at="2026-07-03T10:20:34 IST" duration-ms="1585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hrmtest.tests.LoginPageTest -->
-      <class name="com.hrmtest.tests.DummyTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.hrmtest.tests.DummyTest@30c93896]" started-at="2026-07-03T09:32:32 IST" name="loadConfig" finished-at="2026-07-03T09:32:32 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.DummyTest@30c93896]" started-at="2026-07-03T09:32:32 IST" name="setup" finished-at="2026-07-03T09:32:48 IST" duration-ms="15297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testTitle()[pri:0, instance:com.hrmtest.tests.DummyTest@30c93896]" started-at="2026-07-03T09:32:48 IST" name="testTitle" finished-at="2026-07-03T09:32:48 IST" duration-ms="157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.DummyTest@30c93896]" started-at="2026-07-03T09:32:48 IST" name="tearDown" finished-at="2026-07-03T09:32:58 IST" duration-ms="9664" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.hrmtest.tests.DummyTest -->
       <class name="com.hrmtest.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.HomePageTest@27216cd]" started-at="2026-07-03T09:32:33 IST" name="setup" finished-at="2026-07-03T09:32:48 IST" duration-ms="15295" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrmtest.tests.HomePageTest@59a008ba]" started-at="2026-07-03T10:18:56 IST" name="setup" finished-at="2026-07-03T10:19:17 IST" duration-ms="21146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.HomePageTest@27216cd]" started-at="2026-07-03T09:32:48 IST" name="setupPages" finished-at="2026-07-03T09:32:48 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.hrmtest.tests.HomePageTest@59a008ba]" started-at="2026-07-03T10:19:17 IST" name="setupPages" finished-at="2026-07-03T10:19:17 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPages -->
-        <test-method signature="verifyOrangeHRMlogo(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.HomePageTest@27216cd]" started-at="2026-07-03T09:32:48 IST" name="verifyOrangeHRMlogo" data-provider="ValidLogin" finished-at="2026-07-03T09:33:30 IST" duration-ms="41592" status="PASS">
+        <test-method signature="verifyOrangeHRMlogo(java.lang.String,java.lang.String)[pri:0, instance:com.hrmtest.tests.HomePageTest@59a008ba]" started-at="2026-07-03T10:19:17 IST" name="verifyOrangeHRMlogo" data-provider="ValidLogin" finished-at="2026-07-03T10:19:52 IST" duration-ms="34926" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrangeHRMlogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.HomePageTest@27216cd]" started-at="2026-07-03T09:33:30 IST" name="tearDown" finished-at="2026-07-03T09:33:31 IST" duration-ms="1116" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrmtest.tests.HomePageTest@59a008ba]" started-at="2026-07-03T10:19:52 IST" name="tearDown" finished-at="2026-07-03T10:20:04 IST" duration-ms="11125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
