@@ -5,13 +5,13 @@ pipeline {
 		maven 'maven-3.9.11'
 	}
 	
-	environment{
+/*	environment{
 		COMPOSE_PATH =	"${WORKSPACE}/docker" // 🔁 Adjust if compose file is elsewhere 
 		SELENIUM_GRID = "true"
-	}
+	}*/
 	
 	stages {
-		stage('Start Selenium Grid via Docker Compose') { 
+		/*stage('Start Selenium Grid via Docker Compose') { 
 			steps { 
 				script {
 					 echo "Starting Selenium Grid with Docker Compose..." 
@@ -20,34 +20,34 @@ pipeline {
 					 sleep 20 // Add a wait if needed 
 					 } 
 				} 
-			}
+			}*/
 			
 		stage('Checkout'){
 			steps{
-				git branch : 'main', url :'https://github.com/SaranyaMadireddy/Selenium-Test-Framework.git'
+				git branch : 'master', url :'https://github.com/SaranyaMadireddy/PracticeHRM.git'
 			}
 		}
 		
 		stage('Build'){
 			steps{
-				bat 'mvn clean install -DseleniumGrid=true'
+				bat 'mvn clean install'
 			}
 		}
 		
 		stage('Test'){
 			steps{
-				bat 'mvn clean test -DseleniumGrid=true'
+				bat 'mvn clean test'
 			}
 		}
 		
-		stage('Stop Selenium Grid') {
+		/*stage('Stop Selenium Grid') {
 			 steps { 
 				script { 
 					echo "Stopping Selenium Grid..." 
 					bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml down" 
 						} 
 					}
-			 }
+			 }*/
 		
 		stage('Reports'){
 			steps{
