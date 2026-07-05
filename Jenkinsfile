@@ -52,7 +52,7 @@ pipeline {
 		stage('Reports'){
 			steps{
 				publishHTML(target:[
-					reportDir:'src/test/resources/extentreport',
+					reportDir:'src/test/resources/ExtentReports',
 					reportFiles:'ExtentReport.html',
 					reportName: 'Extent Spark Report'
 					
@@ -64,7 +64,7 @@ pipeline {
 	
 	post {
 		always{
-			archiveArtifacts artifacts:'**/src/test/resources/extentreport/*.html',fingerprint: true
+			archiveArtifacts artifacts:'**/src/test/resources/ExtentReports/*.html',fingerprint: true
 			junit 'target/surefire-reports/*.xml'
 		}
 	
@@ -91,7 +91,7 @@ pipeline {
 			
 			<p><b>Build log is attached.</b></p>
 			
-			<p><b>Extent Report:</b> <a href="http://localhost:9191/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/artifact/src/test/resources/extentreport/ExtentReport.html">Click here</a></p>
+			<p><b>Extent Report:</b> <a href="http://localhost:9191/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/artifact/src/test/resources/ExtentReports/ExtentReport.html">Click here</a></p>
 			
 			<p>Best regards,</p>
 			<p><b>Automation Team</b></p>
@@ -126,7 +126,7 @@ pipeline {
 			
 			<p><b>Build log is attached.</b></p>
 			
-			<p><b>Extent Report:</b> <a href="http://localhost:9191/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/artifact/src/test/resources/extentreport/ExtentReport.html">Click here</a></p>
+			<p><b>Extent Report:</b> <a href="http://localhost:9191/job/${env.JOB_NAME}/${env.BUILD_NUMBER}/artifact/src/test/resources/ExtentReports/ExtentReport.html">Click here</a></p>
 			
 			<p>Best regards,</p>
 			<p><b>Automation Team</b></p>
