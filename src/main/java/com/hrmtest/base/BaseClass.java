@@ -81,7 +81,7 @@ public synchronized void setup() {
 	configBrowser();
 	staticWait(3);	
 	
-	//Initialization of ActionDriver
+	//Initialization of ActionDrivers
 	
 		actionDriver.set(new ActionDriver(getDriver()));
 		 logger.info("ActionDriver is initialized"+Thread.currentThread().getId());
