@@ -94,7 +94,7 @@ private synchronized void launchBrowser() {
 	if(browserName.equalsIgnoreCase("chrome")) {
 //		driver=new ChromeDriver();
 		ChromeOptions options=new ChromeOptions();
-		options.addArguments("--headless");
+		options.addArguments("--headless=new");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--disable-notifications");
 		options.addArguments("--no-sandbox");
@@ -122,7 +122,7 @@ private synchronized void launchBrowser() {
 	}else if(browserName.equalsIgnoreCase("firefox")) {
 //		driver=new FirefoxDriver();
 		FirefoxOptions options=new FirefoxOptions();
-		options.addArguments("--headless");
+		options.addArguments("--headless=new");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--disable-notifications");
 		options.addArguments("--no-sandbox");
@@ -135,7 +135,7 @@ private synchronized void launchBrowser() {
 	}else if(browserName.equalsIgnoreCase("edge")) {
 //		driver=new EdgeDriver();
 		EdgeOptions options=new EdgeOptions();
-		options.addArguments("--headless");
+		options.addArguments("--headless=new");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--disable-notifications");
 		options.addArguments("--nosandbox");
