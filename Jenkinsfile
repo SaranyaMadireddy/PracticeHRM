@@ -15,7 +15,7 @@ pipeline {
 			steps { 
 				script {
 					 echo "Starting Selenium Grid with Docker Compose..." 
-					 bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml up -d" 
+					 bat "docker compose -f \"${COMPOSE_PATH}\\docker-compose.yml\" up -d" 
 					 echo "Waiting for Selenium Grid to be ready..." 
 					 sleep 20 // Add a wait if needed 
 					 } 
