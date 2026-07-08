@@ -44,7 +44,7 @@ pipeline {
 			 steps { 
 				script { 
 					echo "Stopping Selenium Grid..." 
-					bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml down" 
+					bat "docker compose -f \"${COMPOSE_PATH}\\docker-compose.yml\" down" 
 						} 
 					}
 			 }
