@@ -1810,3 +1810,329 @@
 2026-07-03 10:20:21 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
 2026-07-03 10:20:21 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Logout
 2026-07-03 10:20:33 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 10:31:52 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 10:33:24 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 10:35:08 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 10:37:29 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 10:59:42 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 11:01:41 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 11:02:21 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 11:03:51 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 11:04:11 [TestNG-test-Test-2] INFO  BaseClass - ActionDriver is initialized39
+2026-07-07 11:04:12 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized38
+2026-07-07 11:04:12 [TestNG-test-Test-1] INFO  DummyTest - Title matched
+2026-07-07 11:04:12 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:04:13 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:04:13 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:04:13 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:04:13 [TestNG-test-Test-3] INFO  BaseClass - ActionDriver is initialized40
+2026-07-07 11:04:13 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:04:14 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:04:14 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:04:15 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:04:15 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:04:15 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:04:20 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-07 11:04:20 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Invalid credentials
+2026-07-07 11:04:20 [TestNG-test-Test-2] INFO  ActionDriver - Compare Text passed Invalid credentials equals Invalid credentials
+2026-07-07 11:04:21 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-07 11:04:23 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with className:oxd-brand-banner
+2026-07-07 11:04:23 [TestNG-test-Test-3] INFO  ActionDriver - Element is displayed:Element with className:oxd-brand-banner
+2026-07-07 11:04:23 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-07 11:04:24 [TestNG-test-Test-3] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-07 11:04:24 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-07 11:04:25 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-07 11:04:25 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-07 11:04:33 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized38
+2026-07-07 11:04:35 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:04:35 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:04:36 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:04:36 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:04:36 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:04:39 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:04:43 [TestNG-test-Test-2] INFO  BaseClass - ActionDriver is initialized39
+2026-07-07 11:04:43 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:04:44 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:04:44 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:04:44 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:04:44 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:04:52 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:04:52 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:PIM
+2026-07-07 11:04:55 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:PIM
+2026-07-07 11:04:55 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with placeholder:Type for hints...
+2026-07-07 11:04:55 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with placeholder:Type for hints...
+2026-07-07 11:04:56 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Search
+2026-07-07 11:04:56 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Search
+2026-07-07 11:04:57 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-07 11:04:57 [TestNG-test-Test-1] INFO  DBConnections - Starting DB Connection
+2026-07-07 11:04:57 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:04:57 [TestNG-test-Test-1] INFO  DBConnections -  DB Connection established
+2026-07-07 11:04:57 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-07 11:04:57 [TestNG-test-Test-1] INFO  DBConnections - Executing query: SELECT emp_firstname,emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2 
+2026-07-07 11:04:57 [TestNG-test-Test-1] INFO  DBConnections - Query Executed Successfully
+2026-07-07 11:04:57 [TestNG-test-Test-1] INFO  DBConnections - Employee Details found{empLastName=Paul, empFirstName=John, empMiddleName=N}
+2026-07-07 11:04:57 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-07 11:04:58 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-07 11:04:58 [TestNG-test-Test-1] INFO  ActionDriver - Compare Text passed John N equals John N
+2026-07-07 11:04:58 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-07 11:04:58 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Paul
+2026-07-07 11:04:58 [TestNG-test-Test-1] INFO  ActionDriver - Compare Text passed Paul equals Paul
+2026-07-07 11:04:58 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-07 11:04:58 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-07 11:05:10 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:05:47 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 11:06:05 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized38
+2026-07-07 11:06:05 [TestNG-test-Test-1] INFO  DummyTest - Title matched
+2026-07-07 11:06:05 [TestNG-test-Test-2] INFO  BaseClass - ActionDriver is initialized39
+2026-07-07 11:06:07 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:06:08 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:06:08 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:06:08 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:06:09 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:06:12 [TestNG-test-Test-3] INFO  BaseClass - ActionDriver is initialized40
+2026-07-07 11:06:12 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:06:13 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:06:15 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:06:15 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:06:16 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:06:16 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-07 11:06:16 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Invalid credentials
+2026-07-07 11:06:16 [TestNG-test-Test-2] INFO  ActionDriver - Compare Text passed Invalid credentials equals Invalid credentials
+2026-07-07 11:06:24 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized38
+2026-07-07 11:06:25 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:06:25 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:06:26 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:06:26 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:06:26 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:06:32 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:06:33 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with className:oxd-brand-banner
+2026-07-07 11:06:34 [TestNG-test-Test-3] INFO  ActionDriver - Element is displayed:Element with className:oxd-brand-banner
+2026-07-07 11:06:35 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-07 11:06:35 [TestNG-test-Test-3] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-07 11:06:36 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-07 11:06:36 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-07 11:06:36 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-07 11:06:44 [TestNG-test-Test-2] INFO  BaseClass - ActionDriver is initialized39
+2026-07-07 11:06:45 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:06:46 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:06:46 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:06:47 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:PIM
+2026-07-07 11:06:47 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:06:47 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:06:48 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:06:52 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:06:54 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:PIM
+2026-07-07 11:06:54 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with placeholder:Type for hints...
+2026-07-07 11:06:55 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with placeholder:Type for hints...
+2026-07-07 11:06:55 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Search
+2026-07-07 11:06:56 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Search
+2026-07-07 11:06:57 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-07 11:06:57 [TestNG-test-Test-1] INFO  DBConnections - Starting DB Connection
+2026-07-07 11:06:58 [TestNG-test-Test-1] INFO  DBConnections -  DB Connection established
+2026-07-07 11:06:58 [TestNG-test-Test-1] INFO  DBConnections - Executing query: SELECT emp_firstname,emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2 
+2026-07-07 11:06:58 [TestNG-test-Test-1] INFO  DBConnections - Query Executed Successfully
+2026-07-07 11:06:58 [TestNG-test-Test-1] INFO  DBConnections - Employee Details found{empLastName=Paul, empFirstName=John, empMiddleName=N}
+2026-07-07 11:06:58 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-07 11:06:58 [TestNG-test-Test-1] INFO  ActionDriver - Compare Text passed John N equals John N
+2026-07-07 11:06:59 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Paul
+2026-07-07 11:06:59 [TestNG-test-Test-1] INFO  ActionDriver - Compare Text passed Paul equals Paul
+2026-07-07 11:07:02 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:07:02 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-07 11:07:02 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-07 11:07:02 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-07 11:07:03 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-07 11:07:03 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-07 11:07:14 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:09:20 [main] INFO  BaseClass - Configuration is completed
+2026-07-07 11:09:35 [TestNG-test-Test-2] INFO  BaseClass - ActionDriver is initialized39
+2026-07-07 11:09:35 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized38
+2026-07-07 11:09:35 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:09:36 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:09:36 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:09:36 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:09:36 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:09:36 [TestNG-test-Test-3] INFO  BaseClass - ActionDriver is initialized40
+2026-07-07 11:09:36 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:09:37 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:09:37 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:09:37 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:09:37 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:09:37 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:09:37 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:09:38 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:09:38 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:09:38 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:09:41 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-07 11:09:41 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Invalid credentials
+2026-07-07 11:09:41 [TestNG-test-Test-1] INFO  ActionDriver - Compare Text passed Invalid credentials equals Invalid credentials
+2026-07-07 11:09:51 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:09:51 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with className:oxd-brand-banner
+2026-07-07 11:09:51 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with className:oxd-brand-banner
+2026-07-07 11:09:51 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-07 11:09:52 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-07 11:09:52 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:09:52 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:PIM
+2026-07-07 11:09:52 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-07 11:09:53 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-07 11:09:53 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-07 11:09:57 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized38
+2026-07-07 11:09:58 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-07 11:09:58 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-07 11:09:58 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-07 11:09:59 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-07 11:09:59 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-07 11:10:00 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:PIM
+2026-07-07 11:10:01 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with placeholder:Type for hints...
+2026-07-07 11:10:01 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with placeholder:Type for hints...
+2026-07-07 11:10:01 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Search
+2026-07-07 11:10:02 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Search
+2026-07-07 11:10:04 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-07 11:10:04 [TestNG-test-Test-3] INFO  DBConnections - Starting DB Connection
+2026-07-07 11:10:04 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-07 11:10:06 [TestNG-test-Test-3] INFO  DBConnections -  DB Connection established
+2026-07-07 11:10:06 [TestNG-test-Test-3] INFO  DBConnections - Executing query: SELECT emp_firstname,emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2 
+2026-07-07 11:10:06 [TestNG-test-Test-3] INFO  DBConnections - Query Executed Successfully
+2026-07-07 11:10:06 [TestNG-test-Test-3] INFO  DBConnections - Employee Details found{empLastName=Paul, empFirstName=John, empMiddleName=N}
+2026-07-07 11:10:06 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-07 11:10:06 [TestNG-test-Test-3] INFO  ActionDriver - Compare Text passed John N equals John N
+2026-07-07 11:10:07 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Paul
+2026-07-07 11:10:07 [TestNG-test-Test-3] INFO  ActionDriver - Compare Text passed Paul equals Paul
+2026-07-07 11:10:08 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:10:08 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-07 11:10:09 [TestNG-test-Test-1] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-07 11:10:09 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-07 11:10:10 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-07 11:10:10 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-07 11:10:25 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-07 11:10:39 [TestNG-test-Test1-1] INFO  BaseClass - ActionDriver is initialized72
+2026-07-07 11:10:39 [TestNG-test-Test1-1] INFO  DummyTest - Title matched
+2026-07-08 07:11:38 [main] INFO  BaseClass - Configuration is completed
+2026-07-08 07:26:11 [main] INFO  BaseClass - Configuration is completed
+2026-07-08 07:26:36 [TestNG-test-Test-3] INFO  BaseClass - ActionDriver is initialized39
+2026-07-08 07:26:36 [TestNG-test-Test-2] INFO  BaseClass - ActionDriver is initialized38
+2026-07-08 07:26:36 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized37
+2026-07-08 07:26:36 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:26:36 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:26:36 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:26:37 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:26:37 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:26:37 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:26:37 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:26:37 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:26:37 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:26:37 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:26:37 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:26:37 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:26:37 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:26:37 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:26:37 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:26:40 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-08 07:26:40 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Invalid credentials
+2026-07-08 07:26:40 [TestNG-test-Test-1] INFO  ActionDriver - Compare Text passed Invalid credentials equals Invalid credentials
+2026-07-08 07:26:42 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-08 07:26:42 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-08 07:26:45 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with className:oxd-brand-banner
+2026-07-08 07:26:45 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with className:oxd-brand-banner
+2026-07-08 07:26:46 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:PIM
+2026-07-08 07:26:46 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-08 07:26:46 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-08 07:26:46 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-08 07:26:47 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-08 07:26:47 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-08 07:26:47 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized37
+2026-07-08 07:26:47 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:26:47 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:26:48 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:26:48 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:26:48 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:26:51 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:PIM
+2026-07-08 07:26:58 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with placeholder:Type for hints...
+2026-07-08 07:26:59 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with placeholder:Type for hints...
+2026-07-08 07:26:59 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Search
+2026-07-08 07:26:59 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Search
+2026-07-08 07:27:01 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-08 07:27:01 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-08 07:27:01 [TestNG-test-Test-1] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  DBConnections - Starting DB Connection
+2026-07-08 07:27:01 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  DBConnections -  DB Connection established
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  DBConnections - Executing query: SELECT emp_firstname,emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2 
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  DBConnections - Query Executed Successfully
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  DBConnections - Employee Details found{empLastName=Paul, empFirstName=John, empMiddleName=N}
+2026-07-08 07:27:01 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-08 07:27:01 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-08 07:27:01 [TestNG-test-Test-3] INFO  ActionDriver - Compare Text passed John N equals John N
+2026-07-08 07:27:02 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Paul
+2026-07-08 07:27:02 [TestNG-test-Test-3] INFO  ActionDriver - Compare Text passed Paul equals Paul
+2026-07-08 07:27:04 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-08 07:27:14 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-08 07:27:21 [TestNG-test-Test1-1] INFO  BaseClass - ActionDriver is initialized67
+2026-07-08 07:27:21 [TestNG-test-Test1-1] INFO  DummyTest - Title matched
+2026-07-08 07:27:27 [TestNG-test-Test2-1] INFO  BaseClass - ActionDriver is initialized74
+2026-07-08 07:27:27 [TestNG-test-Test2-1] INFO  DummyTest - Title matched
+2026-07-08 07:41:41 [main] INFO  BaseClass - Configuration is completed
+2026-07-08 07:42:20 [TestNG-test-Test-2] INFO  BaseClass - ActionDriver is initialized40
+2026-07-08 07:42:20 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized39
+2026-07-08 07:42:20 [TestNG-test-Test-3] INFO  BaseClass - ActionDriver is initialized41
+2026-07-08 07:42:21 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:42:21 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:42:21 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:42:21 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:42:21 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:42:22 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:42:22 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:42:22 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:42:22 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:42:22 [TestNG-test-Test-2] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:42:22 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:42:23 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:42:23 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:42:23 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:42:23 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:42:28 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-08 07:42:28 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-08 07:42:28 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Login
+2026-07-08 07:42:28 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Invalid credentials
+2026-07-08 07:42:28 [TestNG-test-Test-1] INFO  ActionDriver - Compare Text passed Invalid credentials equals Invalid credentials
+2026-07-08 07:42:38 [TestNG-test-Test-1] INFO  BaseClass - ActionDriver is initialized39
+2026-07-08 07:42:38 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:username
+2026-07-08 07:42:38 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:username
+2026-07-08 07:42:39 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with className:oxd-brand-banner
+2026-07-08 07:42:39 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with name:password
+2026-07-08 07:42:39 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with className:oxd-brand-banner
+2026-07-08 07:42:39 [TestNG-test-Test-1] INFO  ActionDriver - Entered text to element:Element with name:password
+2026-07-08 07:42:40 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Login
+2026-07-08 07:42:40 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-08 07:42:40 [TestNG-test-Test-2] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-08 07:42:41 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-08 07:42:41 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-08 07:42:42 [TestNG-test-Test-2] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-08 07:42:44 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:PIM
+2026-07-08 07:42:55 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-08 07:42:55 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with placeholder:Type for hints...
+2026-07-08 07:42:55 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Admin
+2026-07-08 07:42:55 [TestNG-test-Test-1] INFO  ActionDriver - Element is displayed:Element with Text:Admin
+2026-07-08 07:42:55 [TestNG-test-Test-3] INFO  ActionDriver - Entered text to element:Element with placeholder:Type for hints...
+2026-07-08 07:42:55 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Search
+2026-07-08 07:42:55 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Test Saranya
+2026-07-08 07:42:55 [TestNG-test-Test-3] INFO  ActionDriver - Clicked an element Element with Text:Search
+2026-07-08 07:42:56 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Element with Text:Test Saranya
+2026-07-08 07:42:56 [TestNG-test-Test-1] INFO  ActionDriver - Applied border for element Element with Text:Logout
+2026-07-08 07:42:57 [TestNG-test-Test-2] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  DBConnections - Starting DB Connection
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  DBConnections -  DB Connection established
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  DBConnections - Executing query: SELECT emp_firstname,emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2 
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  DBConnections - Query Executed Successfully
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  DBConnections - Employee Details found{empLastName=Paul, empFirstName=John, empMiddleName=N}
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:John N
+2026-07-08 07:42:58 [TestNG-test-Test-3] INFO  ActionDriver - Compare Text passed John N equals John N
+2026-07-08 07:42:59 [TestNG-test-Test-3] INFO  ActionDriver - Applied border for element Element with Text:Paul
+2026-07-08 07:42:59 [TestNG-test-Test-3] INFO  ActionDriver - Compare Text passed Paul equals Paul
+2026-07-08 07:43:08 [TestNG-test-Test-1] INFO  ActionDriver - Clicked an element Unable to get Element Description
+2026-07-08 07:43:18 [TestNG-test-Test1-1] INFO  BaseClass - ActionDriver is initialized69
+2026-07-08 07:43:18 [TestNG-test-Test1-1] INFO  DummyTest - Title matched
+2026-07-08 07:43:26 [TestNG-test-Test2-1] INFO  BaseClass - ActionDriver is initialized75
+2026-07-08 07:43:26 [TestNG-test-Test2-1] INFO  DummyTest - Title matched

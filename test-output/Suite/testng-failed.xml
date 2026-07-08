@@ -5,16 +5,62 @@
     <listener class-name="com.hrmtest.listeners.Listeners"/>
   </listeners>
   <test thread-count="3" parallel="classes" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
+      <class name="com.hrmtest.tests.DBTest">
+        <methods>
+          <include name="setupPages"/>
+          <include name="loadConfig"/>
+          <include name="verifyEmployeeDetailsTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hrmtest.tests.DBTest -->
       <class name="com.hrmtest.tests.LoginPageTest">
         <methods>
           <include name="setupPages"/>
-          <include name="invalidLoginTest" invocation-numbers="0"/>
+          <include name="invalidLoginTest"/>
+          <include name="validLoginTest"/>
           <include name="loadConfig"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.hrmtest.tests.LoginPageTest -->
+      <class name="com.hrmtest.tests.HomePageTest">
+        <methods>
+          <include name="verifyOrangeHRMlogo"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupPages"/>
+        </methods>
+      </class> <!-- com.hrmtest.tests.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
+  <test thread-count="3" parallel="classes" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hrmtest.tests.DummyTest">
+        <methods>
+          <include name="testTitle"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hrmtest.tests.DummyTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="3" parallel="classes" name="Test2(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.hrmtest.tests.DummyTest">
+        <methods>
+          <include name="testTitle"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hrmtest.tests.DummyTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

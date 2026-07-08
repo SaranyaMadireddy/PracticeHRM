@@ -5,11 +5,23 @@
 <listener class-name="com.hrmtest.listeners.Listeners"></listener>
 </listeners>
   <test  name="Test">
-    <classes>
-      <class name="com.hrmtest.tests.DummyTest"/>
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>   
       <class name="com.hrmtest.tests.LoginPageTest"/>
-     <class name="com.hrmtest.tests.HomePageTest"/>
+	  <class name="com.hrmtest.tests.HomePageTest"/>
           <class name="com.hrmtest.tests.DBTest"/>
     </classes>
   </test> <!-- Test -->
+  <test  name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+    <class name="com.hrmtest.tests.DummyTest"/>
+    </classes>
+    </test>
+      <test  name="Test2">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+    <class name="com.hrmtest.tests.DummyTest"/>
+    </classes>
+    </test>
 </suite> <!-- Suite -->

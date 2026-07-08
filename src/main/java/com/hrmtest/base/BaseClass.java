@@ -3,6 +3,8 @@ package com.hrmtest.base;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.Optional;
 import java.util.Properties;
@@ -19,10 +21,11 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-
+import org.testng.annotations.Parameters;
 
 import com.hrmtest.actiondriver.ActionDriver;
 import com.hrmtest.utilities.ExtentManager;
@@ -75,9 +78,14 @@ public void loadConfig() throws IOException {
 	 logger.info("Configuration is completed");
 }
 
+
 @BeforeMethod
-public synchronized void setup() {
-	launchBrowser();
+@Parameters("browser")
+public synchronized void setup(String browser) {
+	System.out.println("Setup running");
+	System.out.println("Setting up WebDriver for:" + this.getClass().getSimpleName());
+
+	launchBrowser(browser);
 	configBrowser();
 	staticWait(3);	
 	
@@ -87,98 +95,74 @@ public synchronized void setup() {
 		 logger.info("ActionDriver is initialized"+Thread.currentThread().getId());
 }
 
-private synchronized void launchBrowser() {
+private synchronized void launchBrowser(String browser) {
 	
-	String browserName=prop.getProperty("browser");
+	boolean seleniumGrid = Boolean.parseBoolean(prop.getProperty("seleniumgrid"));
+	String gridurl = prop.getProperty("grid_url");
+//	String browserName=prop.getProperty("browser");
 	
-	if(browserName.equalsIgnoreCase("chrome")) {
+	if(seleniumGrid) {
+		try {
+			if(browser.equalsIgnoreCase("chrome")) {
+				ChromeOptions options=new ChromeOptions();
+				options.addArguments("--headless=new","--disable-notifications","--disable-gpu","--window-size=1920,1080","--no-sandbox","--disable-dev-shm-usage");
+				driver.set(new RemoteWebDriver(new URL(gridurl),options));
+			}else if(browser.equalsIgnoreCase("firefox")) {
+				FirefoxOptions options=new FirefoxOptions();
+				options.addArguments("--headless=new","--disable-notifications","--disable-gpu","--window-size=1920,1080","--no-sandbox","--disable-dev-shm-usage");
+				driver.set(new RemoteWebDriver(new URL(gridurl),options));
+			}else if(browser.equalsIgnoreCase("edge")) {
+				EdgeOptions options=new EdgeOptions();
+				options.addArguments("--headless=new","--disable-notifications","--disable-gpu","--window-size=1920,1080","--no-sandbox","--disable-dev-shm-usage");
+				driver.set(new RemoteWebDriver(new URL(gridurl),options));
+		}
+	} catch (MalformedURLException e) {
+		throw new RuntimeException("Invalid Grid URL", e);
+	}}
+	else {
+	if(browser.equalsIgnoreCase("chrome")) {
 //		driver=new ChromeDriver();
 		ChromeOptions options=new ChromeOptions();
-		options.addArguments("--headless=new");
-		options.addArguments("--disable-gpu");
-		options.addArguments("--disable-notifications");
-		options.addArguments("--no-sandbox");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920,1080");
+		options.addArguments("--headless=new","--disable-notifications","--disable-gpu","--window-size=1920,1080","--no-sandbox","--disable-dev-shm-usage");
 		driver.set(new ChromeDriver(options));
-	/*	DevTools devTools = ((ChromeDriver) getDriver()).getDevTools();
-        devTools.createSession();
-
-        // Set device metrics (width, height, scale)
-        devTools.send(Emulation.setDeviceMetricsOverride(
-                1920,   // width
-                1080,   // height
-                100,    // device scale factor
-                false,  // mobile
-                Optional.empty(), Optional.empty(),
-                Optional.empty(),
-                Optional.empty(),
-                Optional.empty(),
-                Optional.empty(),
-                Optional.empty(), java.util.Optional.empty(), java.util.Optional.empty(), java.util.Optional.empty()
-        ));*/
         ExtentManager.registerDriver(getDriver());
 		 logger.info("ChromeDriver initialized");
-	}else if(browserName.equalsIgnoreCase("firefox")) {
+	}else if(browser.equalsIgnoreCase("firefox")) {
 //		driver=new FirefoxDriver();
 		FirefoxOptions options=new FirefoxOptions();
-		options.addArguments("--headless=new");
-		options.addArguments("--disable-gpu");
-		options.addArguments("--disable-notifications");
-		options.addArguments("--no-sandbox");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920,1080");
+		options.addArguments("--headless=new","--disable-notifications","--disable-gpu","--window-size=1920,1080","--no-sandbox","--disable-dev-shm-usage");
 		driver.set(new FirefoxDriver(options));
 		ExtentManager.registerDriver(getDriver());
 		logger.info("FirefoxDriver initialized");
 		
-	}else if(browserName.equalsIgnoreCase("edge")) {
+	}else if(browser.equalsIgnoreCase("edge")) {
 //		driver=new EdgeDriver();
 		EdgeOptions options=new EdgeOptions();
-		options.addArguments("--headless=new");
-		options.addArguments("--disable-gpu");
-		options.addArguments("--disable-notifications");
-		options.addArguments("--nosandbox");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--window-size=1920,1080");
-		driver.set(new EdgeDriver(options));
-		/*	DevTools devTools = ((ChromeDriver) getDriver()).getDevTools();
-        devTools.createSession();
-
-		// Set device metrics (width, height, scale)
-        devTools.send(Emulation.setDeviceMetricsOverride(
-                1920,   // width
-                1080,   // height
-                100,    // device scale factor
-                false,  // mobile
-                Optional.empty(), Optional.empty(),
-                Optional.empty(),
-                Optional.empty(),
-                Optional.empty(),
-                Optional.empty(),
-                Optional.empty(), java.util.Optional.empty(), java.util.Optional.empty(), java.util.Optional.empty()
-        ));*/
-        
+		options.addArguments("--headless=new","--disable-notifications","--disable-gpu","--window-size=1920,1080","--no-sandbox","--disable-dev-shm-usage");
+		driver.set(new EdgeDriver(options));       
         ExtentManager.registerDriver(getDriver());
 		logger.info("EdgeDriver initialized");
-	}else {
-		throw new IllegalArgumentException("Browser name is invalid "+browserName);
+	}
+	else {
+		throw new IllegalArgumentException("Browser name is invalid "+browser);
 	}		
 }
-
+}
 private void configBrowser() {
+	
+	boolean seleniumGrid=Boolean.parseBoolean(System.getProperty("seleniumGrid", prop.getProperty("seleniumgrid")));
 	
 	int implicit= Integer.parseInt(prop.getProperty("implicitwait"));
 	getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicit));
 	
 	getDriver().manage().window().maximize();
 	
-	try {
-		getDriver().get(prop.getProperty("local_url"));
-	} catch (Exception e) {
-		logger.error("URL is not valid"+e.getMessage());
+	if(seleniumGrid) {
+		getDriver().get(prop.getProperty("url_grid"));
 	}
-		
+	else {
+		getDriver().get(prop.getProperty("local_url"));
+	} 
 }
 
 public void staticWait(int seconds) {
